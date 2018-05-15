@@ -1,8 +1,8 @@
 # headereditor
 实现[**Google Chrome浏览器**](https://www.google.com/chrome/browser/desktop/index.html)重新定向功能
 
-[Google Chrome浏览器带更新服务版](https://dream.ren/tool/chrome/)；
-[Google Chrome浏览器无更新服务版](https://api.i-meto.com/chrome)；
+*[Google Chrome浏览器带更新服务版](https://dream.ren/tool/chrome/)；
+*[Google Chrome浏览器无更新服务版](https://api.i-meto.com/chrome)；
 
 # 添加方法
 
