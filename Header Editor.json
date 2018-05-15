@@ -1,0 +1,45 @@
+{
+	"request": [
+		{
+			"enable": 1,
+			"name": "vpnbook",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "http\\:\\/\\/www\\.vpnbook\\.com(\\/.*)?",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://www.vpnbook.com$1",
+			"_reg": {},
+			"id": 4
+		},
+		{
+			"enable": 1,
+			"name": "steam社区",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "http\\:\\/\\/(.*)steamcommunity\\.com(\\/.*)?",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://$1steamcommunity.com$2",
+			"_reg": {},
+			"id": 5
+		},
+		{
+			"enable": 1,
+			"name": "谷歌验证码",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "https\\:\\/\\/(www\\.)google\\.com\\/recaptcha(\\/.*)?",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://recaptcha.net/recaptcha$2",
+			"_reg": {},
+			"id": 6
+		}
+	],
+	"sendHeader": [],
+	"receiveHeader": []
+}
