@@ -5,6 +5,6 @@
 
 在Header Editor中>>导出和倒入>>下载规则 里输入
 
-https://raw.githubusercontent.com/ssyatelandisi/headereditor/master/Header%20Editor.json
+https://raw.githubusercontent.com/ssyatelandisi/headereditor/master/HeaderEditor.json
 
 下载添加
